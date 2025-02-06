@@ -1,5 +1,5 @@
 SRC=$(wildcard *.cc)
-LDFLAGS += -lutil -lpthread -ldl -lm
+LDFLAGS += -lutil -lpthread -ldl -lm -lpthread
 
 all:  check-env build
 
